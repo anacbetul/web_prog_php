@@ -17,7 +17,6 @@ if (isset($_POST["tc"]))
     if($num == 0)
     {
         echo "Böyle bir kullanıcı bulunamadı! Şifrenizi kontrol ediniz.";
-        //include("login.php");
         exit;
     }
     else if($num == 1)
